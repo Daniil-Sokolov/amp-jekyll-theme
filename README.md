@@ -1,10 +1,12 @@
 # amp-jekyll-theme
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+Fast-loading, mobile-friendly [Accelerated Mobile Pages](https://www.ampproject.org/)-based Jekyll theme, ready to install on your Jekyll site.
 
-TODO: Delete this and the text above, and describe your gem
+GitHub Pages does not yet support custom themes, so instead use the [starter site](https://github.com/msroberts/jekyll-new-amp), which contains the latest released version of this theme.
 
 ## Installation
+
+Note: This theme is not yet published on rubygems, so the instructions below will not work (yet).
 
 Add this line to your Jekyll site's Gemfile:
 
@@ -32,7 +34,7 @@ TODO: Write usage instructions here. Describe your available layouts, includes, 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/msroberts/amp-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
