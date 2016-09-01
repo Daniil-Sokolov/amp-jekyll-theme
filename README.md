@@ -48,4 +48,4 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-Based in part on [minima](https://github.com/jekyll/minima) and [Amplify](https://github.com/ageitgey/amplify)
+Based in part on [Minima](https://github.com/jekyll/minima) and [Amplify](https://github.com/ageitgey/amplify).
