@@ -8,3 +8,6 @@ github_username:  msroberts
 
 # Build settings
 markdown: kramdown
+
+sass:
+  style: compressed;
