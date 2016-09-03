@@ -10,4 +10,4 @@ github_username:  msroberts
 markdown: kramdown
 
 sass:
-  style: compressed;
+  style: compressed
