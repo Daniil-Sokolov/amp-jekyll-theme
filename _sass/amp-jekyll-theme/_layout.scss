@@ -1,0 +1,24 @@
+.site {
+  background-color: $color__background-site;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  max-width: $content_width;
+}
+.site-header,
+.site-footer {
+  padding: 0.5em;
+  color: $color__text-heading;
+  a {
+    color: inherit;
+  }
+}
+.content {
+  background-color: $color__background-content;
+  padding: 0.5em 1em;
+}
+.post-meta {
+  margin: 0.25em 0 1em;
+  font-size: 87.5%;
+  font-style: italic;
+  opacity: 0.75;
+}
