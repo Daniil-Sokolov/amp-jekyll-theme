@@ -1,0 +1,18 @@
+// Variables: override these in _includes/style.scss
+
+// Max-width for page content
+$content_width: 960px;
+
+$color__background-body: #ccc;
+$color__background-site: #e5e5e5;
+$color__background-content: #fff;
+
+$color__text-main: #333;
+$color__text-heading: #454545;
+$color__link: CornflowerBlue;
+$color__link-hover: RoyalBlue;
+
+$font__main: Verdana, sans-serif;
+
+@import "amp-jekyll-theme/elements";
+@import "amp-jekyll-theme/layout";

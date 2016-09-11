@@ -2,3 +2,7 @@
 .sass-cache
 _site
 Gemfile.lock
+
+# For testing only
+index.html
+_config.yml

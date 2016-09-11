@@ -1,0 +1,17 @@
+<amp-sidebar id="sidebar" class="sidebar" layout="nodisplay" side="right">
+
+  <button class="svg-button" on="tap:sidebar.close">
+    {% include ic_close_white_42px.svg %}
+  </button>
+
+  <nav class="site-nav">
+    <ul>
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+          <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+
+</amp-sidebar>

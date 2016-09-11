@@ -1,0 +1,58 @@
+.site {
+  background-color: $color__background-site;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  max-width: $content_width;
+}
+.sidebar {
+  background: $color__background-content;
+  box-sizing: border-box;
+  width: 300px;
+}
+.svg-button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  height: 56px;
+  overflow: hidden;
+  padding: 8px 12px;
+  text-decoration: none;
+  svg {
+    fill: $color__text-heading;
+  }
+}
+.site-header,
+.site-footer {
+  padding: 8px 12px;
+  box-sizing: border-box;
+  color: $color__text-heading;
+  a {
+    color: inherit;
+  }
+}
+.site-header {
+  position: relative;
+  min-height: 48px;
+}
+.site-title {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 150%;
+  line-height: 1.67;
+}
+.menu-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.content {
+  background-color: $color__background-content;
+  padding: 0.5em 1em;
+}
+.post-meta {
+  margin: 0.25em 0 1em;
+  font-size: 87.5%;
+  font-style: italic;
+  opacity: 0.75;
+}
