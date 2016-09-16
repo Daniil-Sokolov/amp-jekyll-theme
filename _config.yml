@@ -14,3 +14,7 @@ sass:
 
 gems:
   - jekyll-seo-tag
+
+# Theme customizations
+amp:
+  front_page_posts: 2
