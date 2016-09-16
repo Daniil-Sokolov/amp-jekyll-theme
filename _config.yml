@@ -6,6 +6,7 @@ baseurl: "/amp-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://msroberts.github.io" # the base hostname & protocol for your site
 github_username:  msroberts
 paginate:	2 # The number of posts to show per page on your posts page
+paginate_path: "/posts/page:num/"
 
 # Build settings
 markdown: kramdown
