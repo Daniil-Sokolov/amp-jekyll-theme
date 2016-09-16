@@ -1,8 +1,22 @@
 ---
 layout: default
-title: Home
 ---
+<header class="front-page-header">
+  <h1 class="front-page-title">{{ site.title | escape }}</h1>
+</header>
 
 <p>Welcome to amp-jekyll-theme!</p>
 <p>Soon, this site will contain documentation.
   But for now it is the theme's development branch.</p>
+
+<section class="posts">
+  <h2>Recent Posts</h2>
+  {% for post in site.posts limit: site.amp.front_page_posts %}
+    <article class="post">
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
+    </article>
+  {% endfor %}
+</section>
