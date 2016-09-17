@@ -19,4 +19,9 @@ layout: default
       </h3>
     </article>
   {% endfor %}
+  {% if site.posts.size > site.amp.front_page_posts %}
+    <nav>
+      <a rel="next" href="{{ site.baseurl }}/posts/">More posts</a>
+    </nav>
+  {% endif %}
 </section>
