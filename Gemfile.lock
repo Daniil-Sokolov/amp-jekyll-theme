@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    amp-jekyll-theme (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -16,6 +21,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
+    jekyll-seo-tag (2.0.0)
+      jekyll (~> 3.1)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.12.0)
@@ -26,6 +33,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
+    rake (10.4.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -37,7 +45,11 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  jekyll
+  amp-jekyll-theme!
+  bundler (~> 1.12)
+  jekyll (~> 3.2)
+  jekyll-seo-tag (~> 2.0)
+  rake (~> 10.0)
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
