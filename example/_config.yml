@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 github_username: msroberts
 permalink: pretty
-paginate: 2 # The number of posts to show per page on your posts page
+paginate: 3 # The number of posts to show per page on your posts page
 paginate_path: "/posts/page:num/"
 defaults:
   -
@@ -28,6 +28,6 @@ gems:
 
 # Theme customizations
 amp:
-  front_page_posts: 2
+  front_page_posts: 3
 
 theme: amp-jekyll-theme
