@@ -4,6 +4,8 @@ set -e
 
 script/build
 
+amphtml-validator _site/index.html
+
 if test -e "./_site/index.html";then
   echo "It builds!"
   rm -Rf _site
