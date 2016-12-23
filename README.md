@@ -32,7 +32,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
+### Analytics
+
+Analytics works the same way as in Minima. Add the following line to _config.yml:
+
+```yaml
+google_analytics: UA-XXXXX-Y
+```
+
+Customize analytics by overriding `_includes/google-analytics.html` and adding any features supported by AMP Analytics: https://developers.google.com/analytics/devguides/collection/amp-analytics/.
 
 ## Contributing
 
