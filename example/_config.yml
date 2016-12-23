@@ -30,4 +30,6 @@ gems:
 amp:
   front_page_posts: 3
 
+google_analytics: UA-XXXXX-Y
+
 theme: amp-jekyll-theme
