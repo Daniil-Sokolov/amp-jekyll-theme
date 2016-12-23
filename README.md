@@ -1,5 +1,7 @@
 # amp-jekyll-theme
 
+[![Build Status](https://travis-ci.org/msroberts/amp-jekyll-theme.svg?branch=master)](https://travis-ci.org/msroberts/amp-jekyll-theme)
+
 Fast-loading, mobile-friendly [Accelerated Mobile Pages](https://www.ampproject.org/)-based Jekyll theme, ready to install on your Jekyll site.
 
 GitHub Pages does not yet support custom themes, so instead use the [starter site](https://github.com/msroberts/jekyll-new-amp), which contains the latest released version of this theme.
