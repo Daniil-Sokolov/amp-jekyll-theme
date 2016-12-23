@@ -1,0 +1,35 @@
+---
+layout: default
+title: Post Archive
+---
+<section class="posts">
+  <h1>a</h1>
+
+  {% for post in paginator.posts %}
+    <article class="post">
+        <header class="post-header">
+          <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+        <div class="post-meta">
+          <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+        </div>
+    </article>
+  {% endfor %}
+
+  {% if paginator.next_page or paginator.previous_page %}
+  <nav class="pagination" role="navigation">
+    {% if paginator.next_page %}
+      <a class="newer-posts" href="{{ site.baseurl }}{{paginator.next_page_path}}" rel="next">&larr; Older posts</a>
+    {% endif %}
+    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="older-posts" href="{{ site.baseurl }}/">Newer posts &rarr;</a>
+      {% else %}
+        <a class="older-posts" href="{{ site.baseurl }}{{paginator.previous_page_path}}" rel="prev">Newer posts &rarr;</a>
+      {% endif %}
+    {% endif %}
+  </nav>
+  {% endif %}
+</section>

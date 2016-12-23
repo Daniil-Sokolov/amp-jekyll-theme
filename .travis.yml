@@ -1,0 +1,13 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm: 2.2
+
+install:
+  - gem install bundler
+  - bundle install
+  - npm install -g amphtml-validator
+
+script:
+  - bundle exec jekyll build --source example
+  - amphtml-validator _site/index.html _site/posts/index.html _site/2016/09/01/new-post/index.html

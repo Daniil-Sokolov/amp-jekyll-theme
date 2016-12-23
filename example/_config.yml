@@ -1,0 +1,33 @@
+title: AMP Jekyll Theme
+email: ""
+description: > # this means to ignore newlines until "baseurl:"
+  This is a test of amp-jekyll-theme
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://example.com" # the base hostname & protocol for your site
+github_username: msroberts
+permalink: pretty
+paginate: 3 # The number of posts to show per page on your posts page
+paginate_path: "/posts/page:num/"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Theme customizations
+amp:
+  front_page_posts: 3
+
+theme: amp-jekyll-theme
