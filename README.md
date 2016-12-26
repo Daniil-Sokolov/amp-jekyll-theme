@@ -1,6 +1,6 @@
-# amp-jekyll-theme
+# amp_jekyll_theme
 
-[![Build Status](https://travis-ci.org/msroberts/amp-jekyll-theme.svg?branch=master)](https://travis-ci.org/msroberts/amp-jekyll-theme)
+[![Build Status](https://travis-ci.org/msroberts/amp-jekyll-theme.svg?branch=master)](https://travis-ci.org/msroberts/amp_jekyll_theme)
 
 Fast-loading, mobile-friendly [Accelerated Mobile Pages](https://www.ampproject.org/)-based Jekyll theme, ready to install on your Jekyll site.
 
@@ -13,13 +13,13 @@ Note: This theme is not yet published on rubygems, so the instructions below wil
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "amp-jekyll-theme"
+gem "amp_jekyll_theme"
 ```
 
 And add this line to your Jekyll site:
 
 ```yaml
-theme: amp-jekyll-theme
+theme: amp_jekyll_theme
 ```
 
 And then execute:
@@ -28,7 +28,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install amp-jekyll-theme
+    $ gem install amp_jekyll_theme
 
 ## Usage
 
